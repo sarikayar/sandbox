@@ -3,71 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .container {
-            width: 50%;
-            margin: 50px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        .contact-info {
-            margin-top: 20px;
-            font-size: 18px;
-        }
-        .contact-info a {
-            text-decoration: none;
-            color: #007BFF;
-            font-weight: bold;
-        }
-        .contact-info a:hover {
-            color: #0056b3;
-        }
-        figure {
-            margin: 20px 0;
-        }
-        img {
-            width: 150px;
-            border-radius: 50%; /* Makes the image round */
-            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-        }
-        figcaption {
-            font-size: 14px;
-            color: #666;
-            margin-top: 5px;
-        }
-    </style>
+    <title>Abndncllc | POS Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
 
-    <div class="container">
-        <h1>Contact Information</h1>
-        
-        <!-- Image Section -->
-
-        <p>Feel free to reach out to us for any inquiries.</p>
-
-        <div class="contact-info">
-
-            <p><strong>Phone:</strong> <a href="tel:+1234567890">+1 234 567 890</a></p>
-
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">
+            <img src="profile.png" alt="Abndncllc Logo">
         </div>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1>Empowering Local Businesses with Reliable POS Solutions</h1>
+            <p>Streamline your sales and grow your business with our cutting-edge, easy-to-use POS systems.</p>
+            <ul>
+                <li>✔ Local & Community-Focused</li>
+                <li>✔ Hassle-Free Setup & 24/7 Support</li>
+                <li>✔ Secure, Fast, & Reliable Transactions</li>
+            </ul>
+            <div class="cta">
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about">
+        <h2>Who We Are: Your Local POS Experts</h2>
+        <p>At <strong>Abndncllc</strong>, we’re more than just a POS provider – we’re your business partner. We provide reliable, affordable, and efficient POS systems tailored to your needs.</p>
+        <ul>
+            <li>✔ Accept all major payment methods</li>
+            <li>✔ Simplify daily operations</li>
+            <li>✔ Provide 24/7 support</li>
+        </ul>
+        <a href="#services" class="btn">Learn More</a>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <h2>POS Solutions That Fit Your Business Needs</h2>
+        <ul>
+            <li>✔ POS Installation & Setup</li>
+            <li>✔ Payment Processing</li>
+            <li>✔ Hardware & Software Support</li>
+            <li>✔ Custom POS Features</li>
+        </ul>
+        <a href="#contact" class="btn">Schedule a Demo</a>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <p>🌟 _"Abndncllc transformed our restaurant operations! Their support is top-notch."_ – John, Restaurant Owner</p>
+        <p>🌟 _"Super easy to use and reliable. We’ve never had downtime!"_ – Maria, Coffee Shop Owner</p>
+        <p>🌟 _"Cok profesyonel. Doyamadik tadina!"_ – Kemalettin, Coffee Shop Owner</p>
+        <a href="#contact" class="btn">Read More Reviews</a>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Let’s Get Started! Reach Out to Us Today.</h2>
+        <p>📍 <strong>Address:</strong> Mekanimiz BUVAZLIYAN</p>
+        <p>📞 <strong>Phone:</strong> 03546661966</p>
+        <p>📧 <strong>Email:</strong> yuzgat@llc.com</p>
+        <p>🕒 <strong>Business Hours:</strong> [Your Hours]</p>
+
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Abndncllc. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
-
-
-
