@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#hero {
+    background-color: #005f73;
+    color: #fff;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.cta-buttons a {
+    margin: 10px;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.primary-btn {
+    background-color: #ff6f61;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: #028090;
+    color: white;
+}
+
+#problem, #solutions {
+    background-color: #f5f5f5;
+}
+
+.pillars {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.solutions-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.solution-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
